@@ -11,3 +11,5 @@ How to use/install
 4. The built app will be located in dist folder, copy it to your applications directory.
 
 5. To kill app, just use activity monitor and quit `taskmenu`.
+
+6. You can also add it to your startup items
