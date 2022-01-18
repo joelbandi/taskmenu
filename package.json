@@ -1,0 +1,20 @@
+{
+  "name": "taskmenu",
+  "version": "1.0.0",
+  "description": "A Google Task viewer",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-packager . --out=dist"
+  },
+  "author": "Joel Bandi",
+  "license": "MIT",
+  "dependencies": {
+    "menubar": "^9.1.1"
+  },
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-packager": "^15.4.0"
+  }
+}
